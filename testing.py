@@ -11,5 +11,6 @@ class TestNumber(unittest.TestCase):
         result = armstrong.armstrong_check(121)
         self.assertFalse(result)
 
+
 if __name__ == "main":
     unittest.main()

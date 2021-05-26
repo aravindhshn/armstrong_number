@@ -31,4 +31,5 @@ jobs:
         run: |
           black --check .
           coverage run -m --source=. unittest discover
+          coverage xml
           
