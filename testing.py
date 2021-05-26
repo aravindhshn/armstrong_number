@@ -11,10 +11,5 @@ class TestNumber(unittest.TestCase):
         result = armstrong.armstrong_check(121)
         self.assertFalse(result)
 
-    # def test_add(self):
-    #     result = armstrong.add(5, 6)
-    #     self.assertEqual(result, 11)
-
-
 if __name__ == "main":
     unittest.main()
