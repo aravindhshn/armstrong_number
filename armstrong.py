@@ -3,6 +3,8 @@
  the index of 3 or not
  for input try numbers 153, 370, 371, 407
 """
+
+
 def armstrong_check(num):
     SUM1 = 0
     print(num)
