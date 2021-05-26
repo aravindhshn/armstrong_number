@@ -1,8 +1,8 @@
 import unittest
 import armstrong
 
-class TestNumber(unittest.TestCase):
 
+class TestNumber(unittest.TestCase):
     def test_correct_number(self):
         result = armstrong.armstrong_check(153)
         self.assertTrue(result)
@@ -10,10 +10,11 @@ class TestNumber(unittest.TestCase):
     def test_wrong_number(self):
         result = armstrong.armstrong_check(121)
         self.assertFalse(result)
-    
+
     # def test_add(self):
     #     result = armstrong.add(5, 6)
     #     self.assertEqual(result, 11)
 
-if __name__ == 'main':
+
+if __name__ == "main":
     unittest.main()

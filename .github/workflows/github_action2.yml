@@ -30,6 +30,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           black --check .
-          pylint * --max-line-length=80
           coverage run -m --source=. unittest discover
           
