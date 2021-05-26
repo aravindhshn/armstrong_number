@@ -31,5 +31,9 @@ jobs:
         run: |
           black --check .
           coverage run -m --source=. unittest discover
-          coverage xml
-          
+          coverage xml          
+      # Upload to Code Coverage
+      - name: "Upload coverage to Codecov"
+        uses: codecov/codecov-action@v1
+        with:
+          fail_ci_if_error: true
